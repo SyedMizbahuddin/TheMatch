@@ -14,8 +14,20 @@ body{
   text-align: center;
 }
 
+.canPlace {
+  padding : 1px;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 4px black;
+}
 
-.grid {
+
+.clicked {
+  padding : 1px;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 5px yellow;
+}
+
+.board {
   margin: auto;
   display: table;
   border-spacing: 60px;
@@ -27,10 +39,14 @@ body{
 .cell {
   width: 50px;
   height: 50px;
-  border-radius: 100px;
-  background: grey;
+  border-radius : 100px;
   display: table-cell;
 }
+
+.grey {
+  background: grey;
+}
+
 .player {
   display : inline-block;
   border-spacing: 15px;
@@ -43,7 +59,7 @@ body{
   float: left;
 }
 
-.player1 .cell{
+.red{
   background-color: red;
 }
 /* d41f15 */
@@ -51,7 +67,7 @@ body{
   float: right;
 }
 
-.player2 .cell{
+.blue{
   background-color: blue;
 }
 /* 1362c2 */
