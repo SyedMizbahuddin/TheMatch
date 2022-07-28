@@ -1,0 +1,61 @@
+body{
+  background-color: #81e6e4;
+}
+
+#title {
+  font-family: 'Parisienne', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+#instruction {
+  font-family:  monospace;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.grid {
+  margin: auto;
+  display: table;
+  border-spacing: 60px;
+
+}
+.row {
+  display: table-row
+}
+.cell {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: grey;
+  display: table-cell;
+}
+.player {
+  display : inline-block;
+  border-spacing: 15px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.player1 {
+  float: left;
+}
+
+.player1 .cell{
+  background-color: red;
+}
+/* d41f15 */
+.player2 {
+  float: right;
+}
+
+.player2 .cell{
+  background-color: blue;
+}
+/* 1362c2 */
+
+/* .row div:last-child {
+  background: red
+} */
