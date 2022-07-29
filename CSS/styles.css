@@ -1,7 +1,7 @@
 body{
   background-color: #81e6e4;
 }
-
+ 
 #title {
   font-family: 'Parisienne', cursive;
   font-size: 70px;
@@ -9,12 +9,13 @@ body{
 }
 
 #instruction {
+  margin-top: -20px;
   font-family:  monospace;
   font-size: 50px;
   text-align: center;
 }
 
-.canPlace {
+.available {
   padding : 1px;
   background-clip: content-box;
   box-shadow: inset 0 0 0 4px black;
@@ -28,9 +29,9 @@ body{
 }
 
 .board {
-  margin: auto;
+  margin: -40px auto 0 ;
   display: table;
-  border-spacing: 60px;
+  border-spacing: 50px;
 
 }
 .row {
@@ -48,6 +49,7 @@ body{
 }
 
 .player {
+  margin-top: -20px;
   display : inline-block;
   border-spacing: 15px;
   text-align: center;
@@ -56,6 +58,7 @@ body{
 }
 
 .player1 {
+  margin-left: 50px;
   float: left;
 }
 
@@ -64,6 +67,7 @@ body{
 }
 /* d41f15 */
 .player2 {
+  margin-right: 50px;
   float: right;
 }
 
